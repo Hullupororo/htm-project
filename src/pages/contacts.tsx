@@ -23,7 +23,7 @@ export default function Contacts() {
 
   const [heightlosed, heightOpen] = isMobile
     ? ["1200px", "1640px"]
-    : ["100vh", "180vh"];
+    : ["120vh", "180vh"];
 
   const { contacts: styles } = useContext(StylesContext);
 
