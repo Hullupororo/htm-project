@@ -139,7 +139,7 @@ export default function Services() {
             </motion.div>
           ))}
           <div className={styles.casesWrapper}>
-            <Link className={styles.contacts} href="/contacts" scroll={false}>
+            <Link className={styles.contacts} href="/contacts#to">
               <Button title="КОНТАКТЫ" theme={Theme.Light} />
             </Link>
           </div>
